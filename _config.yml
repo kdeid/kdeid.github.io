@@ -77,4 +77,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  skip_cleanup: true
+  repo: https://__GITHUB_TOKEN__@github.com/kdeid/kdeid.github.io.git
+  branch: master
