@@ -31,7 +31,7 @@ color_scheme: blue   # options: blue, gray, green, orange, red, turquoise
 favicon: /favicon.png # path from root of hexo site
 #twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/settings/widgets
 twitter_username: kde_id # twitter username without the app
-default_author: Anonymous
+default_author: KDE Indonesia
 
 #about: Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris.
 #phone: 
