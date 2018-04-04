@@ -21,10 +21,11 @@ swiftype_install_key:
 social:
   github: https://github.com/kdeid
   twitter: https://twitter.com/kde_id
-  #facebook: https://www.facebook.com/ptsteadman
+  facebook: https://www.facebook.com/groups/kde.id/
+  telegram: https://t.me/kdeid
   rss: atom.xml
-  #linkedin: https://linkedin.com/in/ptsteadman
-  #stackoverflow: http://stackoverflow.com/users/2480493/patrick-steadman
+  # linkedin: 
+  # stackoverflow:
 
 # Miscellaneous
 color_scheme: blue   # options: blue, gray, green, orange, red, turquoise
