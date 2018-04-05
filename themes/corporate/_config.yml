@@ -4,7 +4,7 @@ menu:
   Events: /categories/Events
   Blog: /archives/
   Contact: /#
-  About: /#
+  About: /about/
    
 rss: /atom.xml
 
