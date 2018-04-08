@@ -10,16 +10,21 @@ cite::before {
   content: '\00A0 \2014 \00A0';
 }
 
-.blog-item blockquote {
-  margin: 15px 15px 15px;
-  padding: 5px 15px;
-  font-size: 1em;
+.blog-item blockquote footer {
+  margin: 1em 0;
+  font-size: inherit;
   font-style: italic;
+}
+.blog-item blockquote {
+  margin: 15px 0px 15px;
+  padding: 0 20px;
+  position: relative;
+  font-size: inherit;
 }
 
 .article-entry p, .article-entry li {
   text-align: inherit !important;
-  font-size: 1.2em;
+  font-size: 1.1em;
   max-width: 100%;
   color: #333;
 }
@@ -90,7 +95,7 @@ cite::before {
 }
 .article-entry .gist {
   background: #f5f5f5;
-  padding: 15px 20px 15px 0;
+  padding: 15px 0 15px 0;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -110,7 +115,7 @@ cite::before {
   padding: 0 !important;
 }
 .article-entry .gist .gist-file .highlight {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   border: none;
 }
@@ -122,8 +127,6 @@ cite::before {
   border-top: solid;
   border-width: 1px;
   padding: 15px 10px 0px 10px;
-  margin-top: 1em;
-  margin-right: -20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
   color: #258fb8;
@@ -214,4 +217,37 @@ pre .javascript .function {
 
 nav {
   padding-top: 10px;
+  border-top: solid 1px #ECEBEB;
+  /* border-bottom: solid 1px #ECEBEB; */
+}
+
+.embed-responsive iframe {
+  padding-bottom: 1em;
+}
+
+.front-lists-v1 li {
+  font-size: 14px;
+}
+
+figure {
+  margin: 0px 0px 15px 0px;
+}
+
+.service-box p {
+  font-size: 14px;
+}
+
+.content-page p {
+  font-size: 14px;
+}
+
+.front-team h3 small {
+  font-size: 14px;
+}
+
+.blog-posts hr.blog-post-sep {
+  margin: 20px 0;
+}
+.article-entry h1, h2, h3, h4, h5 {
+  margin-top: 0;
 }
