@@ -7,24 +7,23 @@ blockquote .small:before {
 }
 
 cite::before {
-    content: '\00A0 \2014 \00A0';
+  content: '\00A0 \2014 \00A0';
 }
 
 .blog-item blockquote {
-    margin: 15px 15px 15px;
-    padding: 5px 15px;
-    font-size: 1em;
-    font-style: italic;
+  margin: 15px 15px 15px;
+  padding: 5px 15px;
+  font-size: 1em;
+  font-style: italic;
 }
 
 .article-entry p, .article-entry li {
-    text-align: inherit !important;
-    font-size: 1.2em;
-    max-width: 100%;
-    color: #333;
+  text-align: inherit !important;
+  font-size: 1.2em;
+  max-width: 100%;
+  color: #333;
 }
 
-/* .article-entry pre, */
 .article-entry .highlight {
   background: #f5f5f5;
   padding: 15px 20px;
@@ -66,9 +65,6 @@ cite::before {
   padding: 0;
 }
 .article-entry .highlight figcaption {
-  /* font-size: 0.85em; */
-  /* color: #999; */
-  /* line-height: 1em; */
   margin-bottom: 1em;
 }
 .article-entry .highlight figcaption:before,
@@ -93,11 +89,7 @@ cite::before {
   background: #515151;
 }
 .article-entry .gist {
-  margin: 0 -20px;
-  border-style: solid;
-  border-color: #ddd;
-  border-width: 1px 0;
-  background: #2d2d2d;
+  background: #f5f5f5;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -123,13 +115,15 @@ cite::before {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background-color: transparent;
   color: #999;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
-  padding: 0;
+  border-top: solid;
+  border-width: 1px;
+  padding: 15px 10px 0px 10px;
   margin-top: 1em;
-  margin-left: 20px;
+  margin-right: -20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
   color: #258fb8;
@@ -196,21 +190,28 @@ pre .javascript .function {
 }
 
 .article-entry .video-container {
-    position: relative;
-    padding-top: 56.25%;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
 
 .article-entry .video-container iframe,
 .article-entry .video-container object,
 .article-entry .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
 }
 
+.article-entry .gist .blob-num,
+.article-entry .gist .blob-code {
+  background: #f5f5f5;
+}
 
+nav {
+  padding-top: 10px;
+}
