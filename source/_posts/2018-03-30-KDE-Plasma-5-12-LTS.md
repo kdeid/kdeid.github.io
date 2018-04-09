@@ -7,6 +7,7 @@ tags:
 - KDE
 - Plasma
 lede: Sample youtube video post.
+thumbnail: /assets/img/thumbnails/konqi-app-office.png
 ---
 
 {% youtube xha6DJ_v1E4 %}
