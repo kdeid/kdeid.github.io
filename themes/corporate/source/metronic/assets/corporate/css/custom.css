@@ -22,6 +22,7 @@ cite::before {
   font-size: inherit;
 }
 
+.blog-posts p,
 .article-entry p, .article-entry li {
   text-align: inherit !important;
   font-size: 1.1em;
