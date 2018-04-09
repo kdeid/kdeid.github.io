@@ -1,12 +1,52 @@
+<div class="container-fluid flush-with-header">
+    <div class="row margin-bottom-40 row-corporate bg-light-1">
+        <div class="container">
+            <div class="col-xs-6 col-sm-8 row-corporate-text-container">
+                    <div class="row-corporate-text">
+                        <h1>KDE Users Group Indonesia.</h1>
+                        <h4 class="wow fadeIn">KDE Users Group Indonesia, is the Indonesian local users group of KDE. Provides Indonesian KDE users with a community hub to coordinate with and support each other.
+                        </h4>
+                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <img src="/assets/img/konqi.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row service-box margin-bottom-40">
+        <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading">
+                    <em><i class="fa fa-telegram blue wow rollIn"></i></em>
+                    <span>Telegram Group</span>
+            </div>
+            <a href="https://t.me/kdeid" class="btn btn-primary btn-lg btn-block" target="_blank">Join</a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading">
+                    <em><i class="fa fa-facebook blue wow rollIn"></i></em>
+                    <span>Facebook Group</span>
+            </div>
+            <a href="https://t.me/kdeid" class="btn btn-primary btn-lg btn-block" target="_blank">Join</a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading">
+                    <em><i class="fa fa-twitter blue wow rollIn"></i></em>
+                    <span>Twitter</span>
+            </div>
+            <a href="https://twitter.com/kde_id" class="btn btn-primary btn-lg btn-block" target="_blank">Follow @kde_id</a>
+        </div>
+    </div>
+</div>
+
 <% if(page.content){ %>
   <%- page.content %>
 <% } else { %>
   <div class="container">
-    <ul class="breadcrumb">
-      <li class="active">Home</li>
-    </ul>
   <div id="main">
-    <%- partial('_partial/archive', {pagination: config.archive, index: true}) %>
+    <%- partial('_partial/archive', {pagination: config.archive, index: false}) %>
   </div>
   </div>
 <% } %>
