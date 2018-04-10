@@ -271,3 +271,7 @@ figure {
 #search-form input {
   text-indent: 0px;
 }
+
+.img-responsive {
+  margin: 0 auto;
+}
