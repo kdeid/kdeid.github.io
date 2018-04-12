@@ -3,7 +3,7 @@ menu:
   Home: /
   Events: /categories/Events
   Archives: /archives/
-  Contact: /#
+  Contact: /#contact
   About: /about/
    
 rss: /atom.xml
