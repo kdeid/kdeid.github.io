@@ -2,32 +2,6 @@
 <body class="corporate">
   <%- partial('_partial/header', null, { path: path }) %>
   <%- body %>
-  <!-- Modal -->
-  <div id="search" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
-  
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Site Search</h4>
-        </div>
-        <div class="modal-body">
-            <form id="search-form">
-                <div class="form-group">
-                  <input class="form-control" type="text" name="q" id="tipue_search_input" autocomplete="off" required placeholder="Type, Enter and Search" autofocus="autofocus" />
-                </div>
-            </form>
-          <div id="tipue_search_content"></div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-  
-    </div>
-  </div>
-  <!-- End Modal -->
   <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
   <%- partial('_partial/scripts') %>
 </body>
