@@ -7,6 +7,8 @@ categories:
 date: 2018-04-05 19:27:12
 tags:
 lede: Undangan Meet Up Pengguna KDE Indonesia Regional Jogja
+thumbnail: /assets/img/thumbnails/kde-dragons.png
+featured: true
 ---
 
 <pre>

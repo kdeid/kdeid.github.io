@@ -2,8 +2,8 @@
 menu:
   Home: /
   Events: /categories/Events
-  Blog: /archives/
-  Contact: /#
+  Archives: /archives/
+  Contact: /#contact
   About: /about/
    
 rss: /atom.xml

@@ -1,13 +1,67 @@
-<% if(page.content){ %>
-  <%- page.content %>
-<% } else { %>
-  <div class="container">
-    <ul class="breadcrumb">
-      <li class="active">Home</li>
-    </ul>
-  <div id="main">
-    <%- partial('_partial/archive', {pagination: config.archive, index: true}) %>
-  </div>
-  </div>
-<% } %>
+<div class="container-fluid flush-with-header">
+    <div class="row row-community bg-light-1">
+        <img src="/assets/img/community-konqis.png" class="img-responsive margin-bottom-20 image-community-hp">
+        <div class="container">
+            <div class="row margin-bottom-20">
+                <div class="col-md-12 text-center">
+                    <h2>KDE Users Group Indonesia</h2>
+                    <div class="col-md-8 col-centered">
+                        <h4 class="wow fadeIn">Indonesian local users group of KDE, provides Indonesian KDE users with a community hub to coordinate with and support each other.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div id="contact" class="container margin-top-40 margin-bottom-20">
+    <div class="row service-box margin-bottom-20">
+        <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading text-center">
+                <em><i class="fa fa-telegram blue wow rollIn"></i></em>
+                <a href="https://t.me/kdeid" target="_blank"><span>Telegram Group</span></a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 text-center">
+            <div class="service-box-heading">
+                <em><i class="fa fa-facebook blue wow rollIn"></i></em>
+                <a href="https://www.facebook.com/groups/kde.id/" target="_blank"><span>Facebook Group</span></a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading text-center">
+                <em><i class="fa fa-twitter blue wow rollIn"></i></em>
+                <a href="https://twitter.com/kde_id" target="_blank"><span>Twitter</span></a>
+            </div>
+        </div>
+    </div>
+    <hr class="blog-posts-sep">
+</div>
+
+<% if (site.posts.length){ %>
+    <div class="container margin-top-20">
+        <div class="row">
+            <div class="recent-news col-md-4">
+                <img src="/assets/img/konqi-support-search.png" class="img-responsive">
+            </div>
+            <div class="recent-news col-md-8">
+                <h2>Recent Posts</h2>
+                <% site.posts.sort('date', -1).limit(4).each(function(post){ %>
+                    <ul class="blog-info list-unstyled">
+                        <li>
+                            <i class="fa fa-calendar"></i>
+                            <strong><%- date(post.date, 'D MMMM YYYY') %></strong>
+                            <h3 itemprop="name">
+                                <a class="archive-article-title" href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a>
+                            </h3>
+                            <div class="blog-item">
+                                <p><%- post.lede %></p>
+                            </div>
+                        </li>
+                    </ul>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+<% } %>

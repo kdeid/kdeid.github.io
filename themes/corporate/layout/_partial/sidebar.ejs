@@ -17,9 +17,11 @@
   <% site.posts.each(function(post, i){ %>
     <% if (post.featured == true){ %>
       <div class="row margin-bottom-10">
-	<div class="col-md-4">
-	  <%- image_tag(post.thumbnail, {class: "img-responsive "}) %>
-	</div>
+        <% if (post.thumbnail) { %>
+	        <div class="col-md-4">
+            <%- image_tag(post.thumbnail, {class: "img-responsive"}) %>
+          </div>
+        <% } %>
 	<div class="col-md-8">
 	  <h3><a href="<%- post.permalink %>"><%- post.title %></a></h3>
 	</div>                        
