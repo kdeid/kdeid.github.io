@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KDE Indonesia</title>
+  
+  <subtitle>KDE Users Group Indonesia</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://kde-indonesia.id/"/>
+  <updated>2019-11-07T13:20:36.539Z</updated>
+  <id>https://kde-indonesia.id/</id>
+  
+  <author>
+    <name>KDE Indonesia</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kopdar KDE Indonesia</title>
+    <link href="https://kde-indonesia.id/2019/11/07/Kopdar-KDE-Indonesia.html"/>
+    <id>https://kde-indonesia.id/2019/11/07/Kopdar-KDE-Indonesia.html</id>
+    <published>2019-11-07T12:33:48.000Z</published>
+    <updated>2019-11-07T13:20:36.539Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Ha? KDE ada kopdar? Beneran?&lt;/p&gt;
+&lt;p&gt;Iya, ini bukan berita simpang siur atau hoax yang lagi marak. KDE Indonesia akan mengadakan kopdar
+        
+      
+    
+    </summary>
+    
+      <category term="Events" scheme="https://kde-indonesia.id/categories/Events/"/>
+    
+    
+      <category term="kopdar" scheme="https://kde-indonesia.id/tags/kopdar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Meet Up Regional Jogja</title>
+    <link href="https://kde-indonesia.id/2018/04/05/meet-up-regional-jogja.html"/>
+    <id>https://kde-indonesia.id/2018/04/05/meet-up-regional-jogja.html</id>
+    <published>2018-04-05T12:27:12.000Z</published>
+    <updated>2019-11-07T13:20:36.539Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;
+Undangan
+
+Mengharap kehadiran bapak/ibu/saudara/i pada:
+
+Hari/tgl    : Jumat/6 April 2018
+Jam         : 20.00 WIB
+Tempat      :
+        
+      
+    
+    </summary>
+    
+      <category term="Events" scheme="https://kde-indonesia.id/categories/Events/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>KDE Plasma 5.12 LTS</title>
+    <link href="https://kde-indonesia.id/2018/03/30/KDE-Plasma-5-12-LTS.html"/>
+    <id>https://kde-indonesia.id/2018/03/30/KDE-Plasma-5-12-LTS.html</id>
+    <published>2018-03-30T16:29:26.000Z</published>
+    <updated>2019-11-07T13:20:36.539Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/xha6DJ_v1E4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Sample
+        
+      
+    
+    </summary>
+    
+      <category term="Video" scheme="https://kde-indonesia.id/categories/Video/"/>
+    
+    
+      <category term="KDE" scheme="https://kde-indonesia.id/tags/KDE/"/>
+    
+      <category term="Plasma" scheme="https://kde-indonesia.id/tags/Plasma/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kde-indonesia.id/2018/03/27/hello-world.html"/>
+    <id>https://kde-indonesia.id/2018/03/27/hello-world.html</id>
+    <published>2018-03-27T05:25:01.000Z</published>
+    <updated>2019-11-07T13:20:36.546Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
